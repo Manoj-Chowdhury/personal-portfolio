@@ -1,10 +1,10 @@
 import React from "react";
 import google from "../assets/portfolio/google.png";
-import installNode from "../assets/portfolio/installNode.jpg";
+import todo from "../assets/portfolio/todo.png";
 import ecommerce from "../assets/portfolio/ecommerce.png";
 import firebase_chatapp from "../assets/portfolio/firebase_chatapp.png";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import calculator from "../assets/portfolio/calculator.png";
+import weather from "../assets/portfolio/weather.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -28,21 +28,21 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: reactSmooth,
-      demolink: "#",
-      githubsrc: "#"
+      src: calculator,
+      demolink: "https://cal-cul.netlify.app/",
+      githubsrc: "https://github.com/Manoj-Chowdhury/calculator/tree/master"
     },
     {
       id: 5,
-      src: installNode,
-      demolink: "#",
-      githubsrc: "#"
+      src: weather,
+      demolink: "https://weathermc-app.netlify.app/",
+      githubsrc: "https://github.com/Manoj-Chowdhury/weather-app"
     },
     {
       id: 6,
-      src: reactWeather,
-      demolink: "#",
-      githubsrc: "#"
+      src: todo,
+      demolink: "https://app-todom.netlify.app/",
+      githubsrc: "https://github.com/Manoj-Chowdhury/todo"
     },
   ];
 
@@ -65,7 +65,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105 h-44"
+                className="rounded-md duration-200 hover:scale-105 h-44 z-[-99]"
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
